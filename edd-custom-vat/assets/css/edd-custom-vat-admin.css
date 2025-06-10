@@ -1,0 +1,298 @@
+/**
+ * Admin styles for EDD Custom VAT per Country
+ *
+ * @package    EDD_Custom_VAT
+ * @subpackage EDD_Custom_VAT/assets/css
+ * @copyright  Copyright (c) 2023, Marian Härtel
+ * @license    GPL-2.0+
+ * @since      2.0.0
+ */
+
+/* General Admin Styles */
+.edd-custom-vat-settings-wrapper {
+    margin: 20px 0;
+}
+
+.edd-custom-vat-settings-section {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.edd-custom-vat-settings-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.edd-custom-vat-info-box {
+    background: #f9f9f9;
+    border-left: 4px solid #0073aa;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+.edd-custom-vat-info-box h3 {
+    margin-top: 0;
+}
+
+.edd-custom-vat-warning {
+    border-left-color: #dc3232;
+}
+
+/* Product Tax Rates UI */
+.edd-custom-vat-product-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.edd-custom-vat-header {
+    margin-bottom: 15px;
+}
+
+.edd-custom-vat-header h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.edd-custom-vat-rates-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.edd-custom-vat-rates-table th,
+.edd-custom-vat-rates-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.edd-custom-vat-rates-table th {
+    background: #f1f1f1;
+}
+
+.edd-custom-vat-rate-row:hover {
+    background: #f5f5f5;
+}
+
+.edd-custom-vat-add-rate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edd-custom-vat-add-rate select,
+.edd-custom-vat-add-rate input {
+    flex: 1;
+}
+
+.edd-custom-vat-add-rate .spinner {
+    float: none;
+    margin: 0;
+}
+
+/* Countries Settings */
+.edd-custom-vat-countries-wrapper {
+    margin: 20px 0;
+}
+
+.edd-custom-vat-countries-search {
+    margin-bottom: 15px;
+}
+
+.edd-custom-vat-countries-search input {
+    width: 100%;
+    padding: 8px;
+}
+
+.edd-custom-vat-countries-list {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.edd-custom-vat-country-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.edd-custom-vat-country-item:last-child {
+    border-bottom: none;
+}
+
+.edd-custom-vat-countries-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Import/Export Section */
+.edd-custom-vat-import-export-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.edd-custom-vat-export-section,
+.edd-custom-vat-import-section {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.edd-custom-vat-bulk-actions {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.edd-custom-vat-bulk-action-section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.edd-custom-vat-bulk-action-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.edd-custom-vat-import-results {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 4px solid #46b450;
+}
+
+.edd-custom-vat-import-errors {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fbeaea;
+    border-left: 4px solid #dc3232;
+}
+
+/* Documentation Styles */
+.edd-custom-vat-documentation {
+    margin: 20px 0;
+}
+
+.edd-custom-vat-doc-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.edd-custom-vat-doc-sidebar {
+    flex: 0 0 250px;
+}
+
+.edd-custom-vat-doc-nav {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.edd-custom-vat-doc-nav h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.edd-custom-vat-doc-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.edd-custom-vat-doc-nav li {
+    margin-bottom: 8px;
+}
+
+.edd-custom-vat-doc-support {
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.edd-custom-vat-doc-support h3 {
+    margin-top: 0;
+}
+
+.edd-custom-vat-doc-content {
+    flex: 1;
+}
+
+.edd-custom-vat-doc-section {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.edd-custom-vat-doc-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.edd-custom-vat-doc-section h3 {
+    margin-top: 20px;
+}
+
+.edd-custom-vat-doc-screenshot {
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #f9f9f9;
+}
+
+.edd-custom-vat-doc-screenshot img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.edd-custom-vat-doc-note {
+    background: #f9f9f9;
+    border-left: 4px solid #0073aa;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+.edd-custom-vat-faq-item {
+    margin-bottom: 20px;
+}
+
+.edd-custom-vat-faq-item h3 {
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 782px) {
+    .edd-custom-vat-doc-wrapper {
+        flex-direction: column;
+    }
+    
+    .edd-custom-vat-doc-sidebar {
+        flex: 0 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .edd-custom-vat-add-rate {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
