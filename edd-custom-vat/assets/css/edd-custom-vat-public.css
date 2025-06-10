@@ -1,0 +1,167 @@
+/**
+ * Public styles for EDD Custom VAT per Country
+ *
+ * @package    EDD_Custom_VAT
+ * @subpackage EDD_Custom_VAT/assets/css
+ * @copyright  Copyright (c) 2023, Marian Härtel
+ * @license    GPL-2.0+
+ * @since      2.0.0
+ */
+
+/* Tax information styles */
+.edd-custom-vat-tax-info {
+    font-size: 0.85em;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+
+/* Tax breakdown table styles */
+.edd-custom-vat-tax-breakdown {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.edd-custom-vat-tax-breakdown h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.edd-custom-vat-tax-breakdown-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.edd-custom-vat-tax-breakdown-table th,
+.edd-custom-vat-tax-breakdown-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.edd-custom-vat-tax-breakdown-table th {
+    background: #f1f1f1;
+}
+
+.edd-custom-vat-tax-breakdown-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Bundle tax details styles */
+.edd-custom-vat-bundle-details {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.edd-custom-vat-bundle-details h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.edd-custom-vat-bundle-tax-details {
+    margin-bottom: 20px;
+}
+
+.edd-custom-vat-bundle-tax-details:last-child {
+    margin-bottom: 0;
+}
+
+.edd-custom-vat-bundle-tax-details h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.edd-custom-vat-bundle-tax-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.edd-custom-vat-bundle-tax-table th,
+.edd-custom-vat-bundle-tax-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.edd-custom-vat-bundle-tax-table th {
+    background: #f1f1f1;
+}
+
+.edd-custom-vat-bundle-tax-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Cart tax rate column */
+.edd_cart_tax_rate {
+    text-align: right;
+}
+
+/* Loading spinner */
+#edd-custom-vat-loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+}
+
+#edd-custom-vat-loading > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .edd-custom-vat-tax-breakdown-table,
+    .edd-custom-vat-bundle-tax-table {
+        font-size: 0.9em;
+    }
+    
+    .edd-custom-vat-tax-breakdown-table th,
+    .edd-custom-vat-tax-breakdown-table td,
+    .edd-custom-vat-bundle-tax-table th,
+    .edd-custom-vat-bundle-tax-table td {
+        padding: 6px 4px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .edd-custom-vat-tax-breakdown-table,
+    .edd-custom-vat-bundle-tax-table {
+        font-size: 0.8em;
+    }
+    
+    .edd-custom-vat-tax-breakdown-table th,
+    .edd-custom-vat-tax-breakdown-table td,
+    .edd-custom-vat-bundle-tax-table th,
+    .edd-custom-vat-bundle-tax-table td {
+        padding: 4px 2px;
+    }
+}
+
+/* Theme compatibility */
+.theme-twentytwentyone .edd-custom-vat-tax-breakdown-table,
+.theme-twentytwentytwo .edd-custom-vat-tax-breakdown-table,
+.theme-twentytwentythree .edd-custom-vat-tax-breakdown-table {
+    border: 1px solid #e5e5e5;
+}
+
+.theme-twentytwentyone .edd-custom-vat-tax-breakdown-table th,
+.theme-twentytwentyone .edd-custom-vat-tax-breakdown-table td,
+.theme-twentytwentytwo .edd-custom-vat-tax-breakdown-table th,
+.theme-twentytwentytwo .edd-custom-vat-tax-breakdown-table td,
+.theme-twentytwentythree .edd-custom-vat-tax-breakdown-table th,
+.theme-twentytwentythree .edd-custom-vat-tax-breakdown-table td {
+    border: 1px solid #e5e5e5;
+}

@@ -1,0 +1,645 @@
+# Copyright (C) 2023 alphateddyMH
+# This file is distributed under the same license as the Custom VAT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom VAT 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-vat\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch (Sie)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-15T12:00:00+00:00\n"
+"PO-Revision-Date: 2023-11-15 12:00+0100\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: custom-vat\n"
+"Language: de_DE_formal\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-custom-vat-admin.php:76
+msgid "Custom VAT Settings"
+msgstr "Benutzerdefinierte MwSt.-Einstellungen"
+
+#: admin/class-custom-vat-admin.php:77
+msgid "Custom VAT"
+msgstr "Benutzerdefinierte MwSt."
+
+#: admin/class-custom-vat-admin.php:94
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-custom-vat-admin.php:111
+msgid "Custom VAT Configuration"
+msgstr "Benutzerdefinierte MwSt.-Konfiguration"
+
+#: admin/class-custom-vat-admin.php:118
+msgid "Enable Custom VAT"
+msgstr "Benutzerdefinierte MwSt. aktivieren"
+
+#: admin/class-custom-vat-admin.php:126
+msgid "Default VAT Rate"
+msgstr "Standard-MwSt.-Satz"
+
+#: admin/class-custom-vat-admin.php:134
+msgid "VAT Number Field Label"
+msgstr "Bezeichnung für das USt-IdNr.-Feld"
+
+#: admin/class-custom-vat-admin.php:142
+msgid "VAT Number Field Description"
+msgstr "Beschreibung für das USt-IdNr.-Feld"
+
+#: admin/class-custom-vat-admin.php:150
+msgid "Enable VAT Validation"
+msgstr "MwSt.-Validierung aktivieren"
+
+#: admin/class-custom-vat-admin.php:158
+msgid "Remove VAT for Valid Numbers"
+msgstr "MwSt. für gültige Nummern entfernen"
+
+#: admin/class-custom-vat-admin.php:166
+msgid "Show VAT Field for Countries"
+msgstr "USt-IdNr.-Feld für Länder anzeigen"
+
+#: admin/class-custom-vat-admin.php:174
+msgid "B2B Mode"
+msgstr "B2B-Modus"
+
+#: admin/class-custom-vat-admin.php:182
+msgid "Debug Mode"
+msgstr "Debug-Modus"
+
+#: admin/class-custom-vat-admin.php:190
+msgid "Custom VAT Rates"
+msgstr "Benutzerdefinierte MwSt.-Sätze"
+
+#: admin/class-custom-vat-admin.php:204
+msgid "Enable or disable custom VAT functionality"
+msgstr "Benutzerdefinierte MwSt.-Funktionalität aktivieren oder deaktivieren"
+
+#: admin/class-custom-vat-admin.php:221
+msgid "Set the default VAT rate (percentage)"
+msgstr "Legen Sie den Standard-MwSt.-Satz fest (Prozentsatz)"
+
+#: admin/class-custom-vat-admin.php:238
+msgid "Label for the VAT number field at checkout"
+msgstr "Bezeichnung für das USt-IdNr.-Feld beim Checkout"
+
+#: admin/class-custom-vat-admin.php:255
+msgid "Description for the VAT number field at checkout"
+msgstr "Beschreibung für das USt-IdNr.-Feld beim Checkout"
+
+#: admin/class-custom-vat-admin.php:272
+msgid "Enable validation of VAT numbers"
+msgstr "Validierung von USt-IdNr. aktivieren"
+
+#: admin/class-custom-vat-admin.php:289
+msgid "Remove VAT for customers with valid VAT numbers"
+msgstr "MwSt. für Kunden mit gültigen USt-IdNr. entfernen"
+
+#: admin/class-custom-vat-admin.php:306
+msgid "Select countries where the VAT field should be shown"
+msgstr "Wählen Sie Länder aus, in denen das USt-IdNr.-Feld angezeigt werden soll"
+
+#: admin/class-custom-vat-admin.php:323
+msgid "Enable B2B mode (always show VAT field)"
+msgstr "B2B-Modus aktivieren (USt-IdNr.-Feld immer anzeigen)"
+
+#: admin/class-custom-vat-admin.php:340
+msgid "Enable debug mode for troubleshooting"
+msgstr "Debug-Modus zur Fehlerbehebung aktivieren"
+
+#: admin/class-custom-vat-admin.php:357
+msgid "Configure custom VAT rates for specific countries"
+msgstr "Konfigurieren Sie benutzerdefinierte MwSt.-Sätze für bestimmte Länder"
+
+#: admin/class-custom-vat-admin.php:374
+msgid "Country"
+msgstr "Land"
+
+#: admin/class-custom-vat-admin.php:375
+msgid "VAT Rate (%)"
+msgstr "MwSt.-Satz (%)"
+
+#: admin/class-custom-vat-admin.php:376
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/class-custom-vat-admin.php:395
+msgid "Add New Rate"
+msgstr "Neuen Satz hinzufügen"
+
+#: admin/class-custom-vat-admin.php:396
+msgid "Remove"
+msgstr "Entfernen"
+
+#: admin/class-custom-vat-admin.php:415
+msgid "Settings saved successfully."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: admin/class-custom-vat-admin.php:417
+msgid "Error saving settings."
+msgstr "Fehler beim Speichern der Einstellungen."
+
+#: admin/class-custom-vat-documentation.php:42
+msgid "Custom VAT Documentation"
+msgstr "Benutzerdefinierte MwSt.-Dokumentation"
+
+#: admin/class-custom-vat-documentation.php:58
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: admin/class-custom-vat-documentation.php:59
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: admin/class-custom-vat-documentation.php:60
+msgid "VAT Validation"
+msgstr "MwSt.-Validierung"
+
+#: admin/class-custom-vat-documentation.php:61
+msgid "Custom Rates"
+msgstr "Benutzerdefinierte Sätze"
+
+#: admin/class-custom-vat-documentation.php:62
+msgid "Troubleshooting"
+msgstr "Fehlerbehebung"
+
+#: admin/class-custom-vat-documentation.php:63
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-custom-vat-documentation.php:75
+msgid "Welcome to Custom VAT"
+msgstr "Willkommen bei Benutzerdefinierte MwSt."
+
+#: admin/class-custom-vat-documentation.php:76
+msgid "This plugin allows you to customize VAT handling in your WooCommerce store. Below you'll find comprehensive documentation on how to set up and use the plugin."
+msgstr "Dieses Plugin ermöglicht es Ihnen, die MwSt.-Handhabung in Ihrem WooCommerce-Shop anzupassen. Nachfolgend finden Sie eine umfassende Dokumentation zur Einrichtung und Verwendung des Plugins."
+
+#: admin/class-custom-vat-documentation.php:83
+msgid "Basic Setup"
+msgstr "Grundeinrichtung"
+
+#: admin/class-custom-vat-documentation.php:85
+msgid "To get started with Custom VAT, follow these steps:"
+msgstr "Um mit Benutzerdefinierte MwSt. zu beginnen, folgen Sie diesen Schritten:"
+
+#: admin/class-custom-vat-documentation.php:87
+msgid "1. Enable the plugin in the settings page"
+msgstr "1. Aktivieren Sie das Plugin auf der Einstellungsseite"
+
+#: admin/class-custom-vat-documentation.php:88
+msgid "2. Set your default VAT rate"
+msgstr "2. Legen Sie Ihren Standard-MwSt.-Satz fest"
+
+#: admin/class-custom-vat-documentation.php:89
+msgid "3. Configure the VAT number field that will appear at checkout"
+msgstr "3. Konfigurieren Sie das USt-IdNr.-Feld, das beim Checkout erscheinen wird"
+
+#: admin/class-custom-vat-documentation.php:90
+msgid "4. Select which countries should see the VAT field"
+msgstr "4. Wählen Sie aus, welche Länder das USt-IdNr.-Feld sehen sollen"
+
+#: admin/class-custom-vat-documentation.php:97
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin/class-custom-vat-documentation.php:99
+msgid "The main settings page allows you to configure:"
+msgstr "Auf der Haupteinstellungsseite können Sie Folgendes konfigurieren:"
+
+#: admin/class-custom-vat-documentation.php:101
+msgid "- Default VAT Rate: The standard VAT percentage to apply"
+msgstr "- Standard-MwSt.-Satz: Der anzuwendende Standard-MwSt.-Prozentsatz"
+
+#: admin/class-custom-vat-documentation.php:102
+msgid "- VAT Field Label & Description: Customize how the field appears at checkout"
+msgstr "- USt-IdNr.-Feldbezeichnung & Beschreibung: Passen Sie an, wie das Feld beim Checkout erscheint"
+
+#: admin/class-custom-vat-documentation.php:103
+msgid "- Country Selection: Choose which countries should see the VAT field"
+msgstr "- Länderauswahl: Wählen Sie aus, welche Länder das USt-IdNr.-Feld sehen sollen"
+
+#: admin/class-custom-vat-documentation.php:104
+msgid "- B2B Mode: When enabled, the VAT field is always shown regardless of country"
+msgstr "- B2B-Modus: Wenn aktiviert, wird das USt-IdNr.-Feld unabhängig vom Land immer angezeigt"
+
+#: admin/class-custom-vat-documentation.php:111
+msgid "How Validation Works"
+msgstr "Wie die Validierung funktioniert"
+
+#: admin/class-custom-vat-documentation.php:113
+msgid "When VAT validation is enabled, the plugin will:"
+msgstr "Wenn die MwSt.-Validierung aktiviert ist, wird das Plugin:"
+
+#: admin/class-custom-vat-documentation.php:115
+msgid "1. Check the format of the VAT number to ensure it matches the country's pattern"
+msgstr "1. Das Format der USt-IdNr. überprüfen, um sicherzustellen, dass es dem Muster des Landes entspricht"
+
+#: admin/class-custom-vat-documentation.php:116
+msgid "2. Verify the VAT number against the VIES database (for EU countries)"
+msgstr "2. Die USt-IdNr. gegen die VIES-Datenbank überprüfen (für EU-Länder)"
+
+#: admin/class-custom-vat-documentation.php:117
+msgid "3. Store the validation result with the order"
+msgstr "3. Das Validierungsergebnis mit der Bestellung speichern"
+
+#: admin/class-custom-vat-documentation.php:119
+msgid "If 'Remove VAT for Valid Numbers' is enabled, customers with valid VAT numbers will have VAT removed from their order."
+msgstr "Wenn 'MwSt. für gültige Nummern entfernen' aktiviert ist, wird bei Kunden mit gültigen USt-IdNr. die MwSt. von ihrer Bestellung entfernt."
+
+#: admin/class-custom-vat-documentation.php:126
+msgid "Setting Up Custom Rates"
+msgstr "Einrichten benutzerdefinierter Sätze"
+
+#: admin/class-custom-vat-documentation.php:128
+msgid "You can set different VAT rates for specific countries:"
+msgstr "Sie können unterschiedliche MwSt.-Sätze für bestimmte Länder festlegen:"
+
+#: admin/class-custom-vat-documentation.php:130
+msgid "1. Go to the 'Custom VAT Rates' section"
+msgstr "1. Gehen Sie zum Abschnitt 'Benutzerdefinierte MwSt.-Sätze'"
+
+#: admin/class-custom-vat-documentation.php:131
+msgid "2. Click 'Add New Rate'"
+msgstr "2. Klicken Sie auf 'Neuen Satz hinzufügen'"
+
+#: admin/class-custom-vat-documentation.php:132
+msgid "3. Select a country and enter the VAT rate"
+msgstr "3. Wählen Sie ein Land aus und geben Sie den MwSt.-Satz ein"
+
+#: admin/class-custom-vat-documentation.php:133
+msgid "4. Save your settings"
+msgstr "4. Speichern Sie Ihre Einstellungen"
+
+#: admin/class-custom-vat-documentation.php:135
+msgid "These rates will override the default rate for the specified countries."
+msgstr "Diese Sätze überschreiben den Standardsatz für die angegebenen Länder."
+
+#: admin/class-custom-vat-documentation.php:142
+msgid "Common Issues"
+msgstr "Häufige Probleme"
+
+#: admin/class-custom-vat-documentation.php:144
+msgid "If you encounter problems with the plugin, try these steps:"
+msgstr "Wenn Sie Probleme mit dem Plugin haben, versuchen Sie diese Schritte:"
+
+#: admin/class-custom-vat-documentation.php:146
+msgid "1. Enable Debug Mode in the settings to see detailed logs"
+msgstr "1. Aktivieren Sie den Debug-Modus in den Einstellungen, um detaillierte Protokolle zu sehen"
+
+#: admin/class-custom-vat-documentation.php:147
+msgid "2. Check that your server can connect to the VIES validation service"
+msgstr "2. Überprüfen Sie, ob Ihr Server eine Verbindung zum VIES-Validierungsdienst herstellen kann"
+
+#: admin/class-custom-vat-documentation.php:148
+msgid "3. Verify that your WooCommerce tax settings are compatible"
+msgstr "3. Überprüfen Sie, ob Ihre WooCommerce-Steuereinstellungen kompatibel sind"
+
+#: admin/class-custom-vat-documentation.php:149
+msgid "4. Clear your cache after making changes to settings"
+msgstr "4. Löschen Sie Ihren Cache, nachdem Sie Änderungen an den Einstellungen vorgenommen haben"
+
+#: admin/class-custom-vat-documentation.php:156
+msgid "Frequently Asked Questions"
+msgstr "Häufig gestellte Fragen"
+
+#: admin/class-custom-vat-documentation.php:159
+msgid "Q: Will this plugin work with my theme?"
+msgstr "F: Wird dieses Plugin mit meinem Theme funktionieren?"
+
+#: admin/class-custom-vat-documentation.php:160
+msgid "A: Custom VAT is designed to be compatible with any properly coded WordPress theme."
+msgstr "A: Benutzerdefinierte MwSt. ist so konzipiert, dass es mit jedem ordnungsgemäß programmierten WordPress-Theme kompatibel ist."
+
+#: admin/class-custom-vat-documentation.php:162
+msgid "Q: Can I validate non-EU VAT numbers?"
+msgstr "F: Kann ich Nicht-EU-USt-IdNr. validieren?"
+
+#: admin/class-custom-vat-documentation.php:163
+msgid "A: Currently, full validation is only available for EU VAT numbers through the VIES system. For other countries, only format validation is performed."
+msgstr "A: Derzeit ist die vollständige Validierung nur für EU-USt-IdNr. über das VIES-System verfügbar. Für andere Länder wird nur eine Formatvalidierung durchgeführt."
+
+#: admin/class-custom-vat-documentation.php:165
+msgid "Q: Does this plugin modify my WooCommerce tax settings?"
+msgstr "F: Ändert dieses Plugin meine WooCommerce-Steuereinstellungen?"
+
+#: admin/class-custom-vat-documentation.php:166
+msgid "A: No, this plugin works alongside your existing WooCommerce tax settings. It adds the VAT field and validation functionality without changing your core tax configuration."
+msgstr "A: Nein, dieses Plugin arbeitet neben Ihren bestehenden WooCommerce-Steuereinstellungen. Es fügt das USt-IdNr.-Feld und die Validierungsfunktionalität hinzu, ohne Ihre Kern-Steuerkonfiguration zu ändern."
+
+#: admin/class-custom-vat-documentation.php:168
+msgid "Q: Can I use this with other tax plugins?"
+msgstr "F: Kann ich dies mit anderen Steuer-Plugins verwenden?"
+
+#: admin/class-custom-vat-documentation.php:169
+msgid "A: While the plugin should work with most tax plugins, we recommend testing compatibility in a staging environment first."
+msgstr "A: Obwohl das Plugin mit den meisten Steuer-Plugins funktionieren sollte, empfehlen wir, die Kompatibilität zunächst in einer Staging-Umgebung zu testen."
+
+#: includes/class-custom-vat-checkout.php:87
+msgid "VAT Number"
+msgstr "USt-IdNr."
+
+#: includes/class-custom-vat-checkout.php:88
+msgid "Enter your VAT number if applicable"
+msgstr "Geben Sie Ihre USt-IdNr. ein, falls zutreffend"
+
+#: includes/class-custom-vat-checkout.php:152
+msgid "Please enter a valid VAT number."
+msgstr "Bitte geben Sie eine gültige USt-IdNr. ein."
+
+#: includes/class-custom-vat-checkout.php:165
+msgid "VAT number validation failed. Please check your input."
+msgstr "USt-IdNr.-Validierung fehlgeschlagen. Bitte überprüfen Sie Ihre Eingabe."
+
+#: includes/class-custom-vat-checkout.php:178
+msgid "VAT number has been validated successfully."
+msgstr "USt-IdNr. wurde erfolgreich validiert."
+
+#: includes/class-custom-vat-checkout.php:195
+msgid "VAT has been removed based on your valid VAT number."
+msgstr "Die MwSt. wurde aufgrund Ihrer gültigen USt-IdNr. entfernt."
+
+#: includes/class-custom-vat-validator.php:78
+msgid "VAT number is valid."
+msgstr "USt-IdNr. ist gültig."
+
+#: includes/class-custom-vat-validator.php:80
+msgid "VAT number is invalid."
+msgstr "USt-IdNr. ist ungültig."
+
+#: includes/class-custom-vat-validator.php:82
+msgid "VAT validation service is currently unavailable."
+msgstr "Der USt-IdNr.-Validierungsdienst ist derzeit nicht verfügbar."
+
+#: includes/class-custom-vat-validator.php:95
+msgid "Invalid country code in VAT number."
+msgstr "Ungültiger Ländercode in der USt-IdNr."
+
+#: includes/class-custom-vat-validator.php:110
+msgid "VAT number format is invalid for this country."
+msgstr "Das USt-IdNr.-Format ist für dieses Land ungültig."
+
+#: includes/class-custom-vat.php:123
+msgid "Custom VAT requires WooCommerce to be installed and active."
+msgstr "Benutzerdefinierte MwSt. erfordert, dass WooCommerce installiert und aktiv ist."
+
+#: includes/class-custom-vat.php:145
+msgid "View Custom VAT Settings"
+msgstr "Benutzerdefinierte MwSt.-Einstellungen anzeigen"
+
+#: includes/class-custom-vat.php:145
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/class-custom-vat.php:146
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/class-custom-vat.php:147
+msgid "Support"
+msgstr "Support"
+
+#: includes/class-custom-vat-order.php:56
+msgid "VAT Number:"
+msgstr "USt-IdNr.:"
+
+#: includes/class-custom-vat-order.php:72
+msgid "VAT Status:"
+msgstr "MwSt.-Status:"
+
+#: includes/class-custom-vat-order.php:73
+msgid "Valid"
+msgstr "Gültig"
+
+#: includes/class-custom-vat-order.php:73
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: includes/class-custom-vat-order.php:73
+msgid "Not Validated"
+msgstr "Nicht validiert"
+
+#: includes/class-custom-vat-order.php:86
+msgid "VAT Number"
+msgstr "USt-IdNr."
+
+#: includes/class-custom-vat-order.php:87
+msgid "VAT Status"
+msgstr "MwSt.-Status"
+
+#: includes/class-custom-vat-order.php:105
+msgid "VAT Details"
+msgstr "MwSt.-Details"
+
+#: includes/class-custom-vat-reports.php:42
+msgid "VAT Reports"
+msgstr "MwSt.-Berichte"
+
+#: includes/class-custom-vat-reports.php:58
+msgid "VAT Summary"
+msgstr "MwSt.-Zusammenfassung"
+
+#: includes/class-custom-vat-reports.php:59
+msgid "VAT by Country"
+msgstr "MwSt. nach Land"
+
+#: includes/class-custom-vat-reports.php:60
+msgid "VAT Exemptions"
+msgstr "MwSt.-Befreiungen"
+
+#: includes/class-custom-vat-reports.php:61
+msgid "Export Data"
+msgstr "Daten exportieren"
+
+#: includes/class-custom-vat-reports.php:73
+msgid "VAT Collection Summary"
+msgstr "MwSt.-Erhebungszusammenfassung"
+
+#: includes/class-custom-vat-reports.php:75
+msgid "This report shows a summary of VAT collected over time."
+msgstr "Dieser Bericht zeigt eine Zusammenfassung der im Laufe der Zeit erhobenen MwSt."
+
+#: includes/class-custom-vat-reports.php:82
+msgid "Date Range:"
+msgstr "Datumsbereich:"
+
+#: includes/class-custom-vat-reports.php:84
+msgid "Last 7 days"
+msgstr "Letzte 7 Tage"
+
+#: includes/class-custom-vat-reports.php:85
+msgid "Last 30 days"
+msgstr "Letzte 30 Tage"
+
+#: includes/class-custom-vat-reports.php:86
+msgid "This month"
+msgstr "Dieser Monat"
+
+#: includes/class-custom-vat-reports.php:87
+msgid "Last month"
+msgstr "Letzter Monat"
+
+#: includes/class-custom-vat-reports.php:88
+msgid "This quarter"
+msgstr "Dieses Quartal"
+
+#: includes/class-custom-vat-reports.php:89
+msgid "Last quarter"
+msgstr "Letztes Quartal"
+
+#: includes/class-custom-vat-reports.php:90
+msgid "This year"
+msgstr "Dieses Jahr"
+
+#: includes/class-custom-vat-reports.php:91
+msgid "Last year"
+msgstr "Letztes Jahr"
+
+#: includes/class-custom-vat-reports.php:92
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: includes/class-custom-vat-reports.php:95
+msgid "Apply"
+msgstr "Anwenden"
+
+#: includes/class-custom-vat-reports.php:102
+msgid "Total VAT Collected:"
+msgstr "Insgesamt erhobene MwSt.:"
+
+#: includes/class-custom-vat-reports.php:103
+msgid "Orders with VAT:"
+msgstr "Bestellungen mit MwSt.:"
+
+#: includes/class-custom-vat-reports.php:104
+msgid "VAT Exemptions:"
+msgstr "MwSt.-Befreiungen:"
+
+#: includes/class-custom-vat-reports.php:105
+msgid "Average VAT per Order:"
+msgstr "Durchschnittliche MwSt. pro Bestellung:"
+
+#: includes/class-custom-vat-reports.php:117
+msgid "VAT Collection by Country"
+msgstr "MwSt.-Erhebung nach Land"
+
+#: includes/class-custom-vat-reports.php:119
+msgid "This report shows VAT collected broken down by country."
+msgstr "Dieser Bericht zeigt die erhobene MwSt. aufgeschlüsselt nach Ländern."
+
+#: includes/class-custom-vat-reports.php:126
+msgid "Country"
+msgstr "Land"
+
+#: includes/class-custom-vat-reports.php:127
+msgid "Orders"
+msgstr "Bestellungen"
+
+#: includes/class-custom-vat-reports.php:128
+msgid "VAT Collected"
+msgstr "Erhobene MwSt."
+
+#: includes/class-custom-vat-reports.php:129
+msgid "Average Rate"
+msgstr "Durchschnittlicher Satz"
+
+#: includes/class-custom-vat-reports.php:145
+msgid "VAT Exemption Report"
+msgstr "MwSt.-Befreiungsbericht"
+
+#: includes/class-custom-vat-reports.php:147
+msgid "This report shows orders where VAT was exempted due to valid VAT numbers."
+msgstr "Dieser Bericht zeigt Bestellungen, bei denen die MwSt. aufgrund gültiger USt-IdNr. befreit wurde."
+
+#: includes/class-custom-vat-reports.php:154
+msgid "Order ID"
+msgstr "Bestellnummer"
+
+#: includes/class-custom-vat-reports.php:155
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-custom-vat-reports.php:156
+msgid "Customer"
+msgstr "Kunde"
+
+#: includes/class-custom-vat-reports.php:157
+msgid "Country"
+msgstr "Land"
+
+#: includes/class-custom-vat-reports.php:158
+msgid "VAT Number"
+msgstr "USt-IdNr."
+
+#: includes/class-custom-vat-reports.php:159
+msgid "Order Total"
+msgstr "Bestellsumme"
+
+#: includes/class-custom-vat-reports.php:160
+msgid "VAT Exempted"
+msgstr "MwSt. befreit"
+
+#: includes/class-custom-vat-reports.php:176
+msgid "Export VAT Data"
+msgstr "MwSt.-Daten exportieren"
+
+#: includes/class-custom-vat-reports.php:178
+msgid "Generate reports for your VAT records and accounting."
+msgstr "Generieren Sie Berichte für Ihre MwSt.-Aufzeichnungen und Buchhaltung."
+
+#: includes/class-custom-vat-reports.php:185
+msgid "Report Type:"
+msgstr "Berichtstyp:"
+
+#: includes/class-custom-vat-reports.php:187
+msgid "Complete VAT Report"
+msgstr "Vollständiger MwSt.-Bericht"
+
+#: includes/class-custom-vat-reports.php:188
+msgid "VAT by Country"
+msgstr "MwSt. nach Land"
+
+#: includes/class-custom-vat-reports.php:189
+msgid "VAT Exemptions Only"
+msgstr "Nur MwSt.-Befreiungen"
+
+#: includes/class-custom-vat-reports.php:192
+msgid "Format:"
+msgstr "Format:"
+
+#: includes/class-custom-vat-reports.php:194
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/class-custom-vat-reports.php:195
+msgid "Excel"
+msgstr "Excel"
+
+#: includes/class-custom-vat-reports.php:196
+msgid "PDF"
+msgstr "PDF"
+
+#: includes/class-custom-vat-reports.php:199
+msgid "Date Range:"
+msgstr "Datumsbereich:"
+
+#: includes/class-custom-vat-reports.php:210
+msgid "Generate Report"
+msgstr "Bericht generieren"
+
+#: includes/api/class-custom-vat-api.php:87
+msgid "VAT validation request failed."
+msgstr "USt-IdNr.-Validierungsanfrage fehlgeschlagen."
+
+#: includes/api/class-custom-vat-api.php:92
+msgid "Invalid response from VAT validation service."
+msgstr "Ungültige Antwort vom USt-IdNr.-Validierungsdienst."
+
+#: includes/api/class-custom-vat-api.php:112
+msgid "VAT number is not registered or is invalid."
+msgstr "USt-IdNr. ist nicht registriert oder ungültig."
+
+#: includes/api/class-custom-vat-api.php:116
+msgid "VAT validation service returned an error."
+msgstr "Der USt-IdNr.-Validierungsdienst hat einen Fehler zurückgegeben."
